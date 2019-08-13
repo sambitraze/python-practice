@@ -1,9 +1,9 @@
 import json
 
 todoList = []
-try:
-    with open ("todoListFile", "r") as todofile:
-    todofile.write(json.load (todoList))
+#try:
+ #   with open ("todoListFile", "r") as todofile:
+ #   todofile.write(json.load (todoList))
 
 def Display():
     index =1
